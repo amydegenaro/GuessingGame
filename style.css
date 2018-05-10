@@ -1,19 +1,69 @@
 .center {
-    text-align: center;
-  }
-  ul {
-      list-style: none;
-      padding: 0;
-  }
-  img {
-      display: inline;
-      width: 200px;
-      height: 100px;
-  }
-  #footer {
-      width: 100%;
-      border-top: solid 2px black;
-      background-color: white;
-      position: fixed;
-      bottom: 0;
-  }
+text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+img {
+    display: inline;
+    /* width: 200px; */
+    height: 80px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('sunflower-field.jpg');
+    background-size: cover;
+
+}
+
+#app {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#parent-input {
+    width: 160px;
+    margin: 5% auto 40px;
+    position: relative;
+}
+
+#player-input {
+    border-radius: 100%;
+    height: 160px;
+    width: 160px;
+    font-size: 60px;
+}
+
+#submit {
+    border-radius: 60px;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 110px;
+    left: 110px;
+}
+
+.guess {
+    display: inline;
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 0 25px;
+    font-size: 60px;
+    background-color: white;
+}
+
+#footer {
+    width: 100%;
+    border-top: solid 2px black;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    padding: 10px 0px;
+    margin: 20px 0px 0px 0px;
+
+}

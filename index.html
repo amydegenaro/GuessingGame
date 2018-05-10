@@ -5,56 +5,58 @@
 
     <!-- Bootstrap and CSS here-->
     <link rel='stylesheet' type='text/css' href='style.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <!-- <link rel='stylesheet' type='text/css' href='bootstrap.css'> -->
   </head>
   <body>
 
-      <div id='app'>
+      <div id='app' class='center'>
 
-        <div id='headers'>
+        <div id='headers' class='center'>
           <!-- Title and subtitles! -->
-          <h1>Guessing Game!</h1>
-          <h2>Guess a number between 1-100</h2>
+          <h1 id='title'>Guessing Game!</h1>
+          <h2 id='subtitle'>Guess a number between 1-100</h2>
         </div>
 
         <div id='main'>
-          <div id='input-parent'>
+          <div id='parent-input'>
             <!-- Player's guess input, and submit button -->
-            <input autofocus=true placeholder="#" maxlength="3">
-            <button>Go</button>
+            <input id='player-input' class='center' autofocus=true placeholder="#" maxlength="3"></input>
+            <button id='submit' class='btn btn-primary'>Go</button>
           </div>
 
           <div id='guesses'>
             <!-- unordered list of guesses -->
-            <ul>
-              <li>-</li>
-              <li>-</li>
-              <li>-</li>
-              <li>-</li>
-              <li>-</li>
+            <ul id='guess-list'>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
             </ul>
           </div>
 
           <div id="menu-btns">
             <!-- reset and hint buttons -->
-            <button>Reset</button>
-            <button>Hint</button>
+            <button id='reset' class='btn btn-primary'>Reset</button>
+            <button id='hint' class='btn btn-primary'>Hint</button>
           </div>
         </div>
       </div>
 
 
 
-    <div id='footer'>
-        <div>
-          <div class=''>
+    <div id='footer' class='center'>
+        <div class='row'>
+          <div class='col-sm-5'>
             <img src='images/fa-logo@2x.png'></img>
           </div>
 
-          <div class=''>
-            <h4>Project by Amy De Genaro</h4>
+          <div class='col-sm-2'>
+            <h4>Project by <br>Amy De Genaro</h4>
           </div>
 
-          <div class=''>
+          <div class='col-sm-5'>
             <img src='images/grace_hopper_academy.png'></img>
           </div>
 
