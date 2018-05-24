@@ -16,7 +16,7 @@ img {
 body {
     margin: 0px;
     padding: 0px;
-    background-image: url('sunflower-field.jpg');
+    background-image: url('../img/sunflower-field.jpg');
     background-size: cover;
 
 }
