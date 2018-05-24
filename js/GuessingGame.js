@@ -107,6 +107,7 @@ $(document).ready(function() {
     })
 
     $('#hint').on('click', function() {
-        $('#title').text('The winning number is ' + game.provideHint().join(', ') + '!');
+        let hints = game.provideHint();
+        $('#title').text('The winning number is '+hints[0]+', '+hints[1]+', or '+hints[2]+'!');
     })
 })
