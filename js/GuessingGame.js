@@ -53,7 +53,7 @@ Game.prototype.checkGuess = function() {
     }
 
     if (this.pastGuesses.length === 5) {
-        $('#subtitle').text('Press Reset to play again.');
+        $('#subtitle').text('The winning number was ' + this.winningNumber + '.');
         $('#hint, #submit').prop('disabled', true);
         return 'You Lose.';
     } else {
@@ -109,5 +109,6 @@ $(document).ready(function() {
     $('#hint').on('click', function() {
         let hints = game.provideHint();
         $('#title').text('The winning number is '+hints[0]+', '+hints[1]+', or '+hints[2]+'!');
+        $('#hint').prop('disabled', true);
     })
 })
