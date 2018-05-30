@@ -13,20 +13,25 @@
 
       <div id='app' class='center'>
 
-        <div id='headers' class='center'>
-          <!-- Title and subtitles! -->
-          <h1 id='title'>Guessing Game!</h1>
-          <h2 id='subtitle'>Guess a number between 1-100</h2>
-        </div>
-
-        <div id='main'>
+        <div id='intro'>
+          <div id='headers' class='center'>
+            <!-- Title and subtitles! -->
+            <h1 id='title'>Guess the number</h1>
+            <h2 id='subtitle'>Guess a number between 1-100</h2>
+          </div>
+    
           <div id='parent-input'>
             <!-- Player's guess input, and submit button -->
-            <input id='player-input' class='center' autofocus=true placeholder="#" maxlength="3"></input>
+            <input id='player-input' class='center' autofocus=true placeholder="Pick a number between 1-100" maxlength="3"></input>
             <button id='submit' class='btn btn-primary'>Go</button>
           </div>
+        </div>
+
+
+        <div id='main'>
 
           <div id='guesses'>
+            <h3>Your Guesses</h3>
             <!-- unordered list of guesses -->
             <ul id='guess-list'>
               <li class='guess'>?</li>
@@ -39,7 +44,7 @@
 
           <div id="menu-btns">
             <!-- reset and hint buttons -->
-            <button id='reset' class='btn btn-primary'>Reset</button>
+            <button id='reset' class='btn btn-primary'>Play Again</button>
             <button id='hint' class='btn btn-primary'>Hint</button>
           </div>
         </div>
@@ -47,7 +52,7 @@
 
 
 
-    <div id='footer' class='center'>
+    <!-- <div id='footer' class='center'>
         <div class='row'>
           <div class='col-sm-5'>
             <img src='img/fa-logo@2x.png'></img>
@@ -60,10 +65,9 @@
           <div class='col-sm-5'>
             <img src='img/grace_hopper_academy.png'></img>
           </div>
-
-
         </div>
-    </div>
+    </div> -->
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
     integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
     crossorigin="anonymous"></script>

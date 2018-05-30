@@ -3,7 +3,11 @@
 }
 
 .center {
-text-align: center;
+    text-align: center;
+}
+
+div {
+    border: solid 1px black;
 }
 
 ul {
@@ -20,8 +24,26 @@ img {
 body {
     margin: 0px;
     padding: 0px;
-    background-image: url('../img/sunflower-field.jpg');
+    background-image: url('../img/nebula.jpg');
     background-size: cover;
+
+}
+
+h3 {
+    color: white;
+}
+
+#headers {
+    position: left;
+}
+
+#title {
+    color: white;
+    text-transform: uppercase;
+}
+
+#subtitle {
+    color: white;
 
 }
 
@@ -31,25 +53,26 @@ body {
 }
 
 #parent-input {
-    width: 160px;
     margin: 5% auto 40px;
-    position: relative;
+    position: right;
 }
 
 #player-input {
-    border-radius: 100%;
-    height: 160px;
-    width: 160px;
-    font-size: 60px;
+    /* border-radius: 100%; */
+    height: 80px;
+    width: 400px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+
 }
 
 #submit {
-    border-radius: 60px;
-    height: 60px;
-    width: 60px;
-    position: absolute;
-    top: 110px;
-    left: 110px;
+    /* border-radius: 60px; */
+    /* height: 80px; */
+    /* width: 60px; */
+    /* position: absolute; */
+    /* top: 110px;
+    left: 110px; */
 }
 
 .guess {
