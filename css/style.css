@@ -1,5 +1,5 @@
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Unica One', cursive;
 }
 
 .center {
@@ -20,14 +20,22 @@ img {
 body {
     margin: 0px;
     padding: 0px;
-    background-image: url('../img/sunflower-field.jpg');
+    background-image: url('../img/darkrift-orig_full.jpg');
     background-size: cover;
 
 }
 
+#title, #subtitle {
+    color: white;
+}
+
+#title {
+    font-size: 60px;
+}
+
 #app {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 #parent-input {
