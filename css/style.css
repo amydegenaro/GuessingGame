@@ -40,7 +40,7 @@ body {
 
 #parent-input {
     width: 160px;
-    margin: 5% auto 40px;
+    margin: 2% auto 40px;
     position: relative;
 }
 
@@ -49,6 +49,7 @@ body {
     height: 160px;
     width: 160px;
     font-size: 60px;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 #submit {
