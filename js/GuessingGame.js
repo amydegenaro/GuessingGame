@@ -109,5 +109,6 @@ $(document).ready(function() {
     $('#hint').on('click', function() {
         let hints = game.provideHint();
         $('#title').text('The winning number is '+hints[0]+', '+hints[1]+', or '+hints[2]+'!');
+        $('#hint').prop('disabled', true);
     })
 })
